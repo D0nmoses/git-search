@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SearchFormComponent } from './components/search-form/search-form.component';
 import { UserComponent } from './user/user.component';
 import { AboutComponent } from './about/about.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { AboutComponent } from './about/about.component';
     SearchFormComponent,
     UserComponent,
     AboutComponent,
+    NavbarComponent,
     
   ],
   imports: [
