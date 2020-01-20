@@ -15,7 +15,7 @@ export class SearchformComponent implements OnInit {
     @Output() userUpdated: EventEmitter<User> = new EventEmitter<User>();
 
     constructor(private _githubService: GithubService) {
-       
+       this.user = new User("","","");
     }
 
     ngOnInit() {
