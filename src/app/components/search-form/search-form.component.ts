@@ -14,7 +14,7 @@ export class SearchformComponent implements OnInit {
     @Input() user: User;
     @Output() userUpdated: EventEmitter<User> = new EventEmitter<User>();
 
-    constructor(private _githubService: GithubService) {
+    constructor(public _githubService: GithubService) {
        this.user = new User("","","");
     }
 

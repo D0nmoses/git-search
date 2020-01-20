@@ -1,1 +1,17 @@
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+.m-a-5{margin: 5px;}
+.m-r-05{margin-right: 5px;}
+.m-l-05{margin-left: 5px;}
+.m-t-05{margin-top: 5px;}
+.m-b-05{margin-bottom: 5px;}
+
+.p-a-05{padding: 5px;}
+.p-r-05{padding-right: 5px;}
+.p-l-05{padding-left: 5px;}
+.p-t-05{padding-top: 5px;}
+.p-b-05{padding-bottom: 5px;}
+
+#searchForm .form-group{margin-bottom: 0;}
+#searchForm .form-control{border:0; height:38px;}
