@@ -15,3 +15,12 @@
 
 #searchForm .form-group{margin-bottom: 0;}
 #searchForm .form-control{border:0; height:38px;}
+
+.card{
+  width: 500px;
+  margin-right: 50px;
+}
+
+#repo-list{
+  margin-left: 300px;
+}
