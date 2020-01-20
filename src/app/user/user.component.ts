@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { User } from '../user';
+import { GithubService } from '../services/github-service.service';
 
 @Component({
   selector: 'app-user',
@@ -8,9 +9,13 @@ import { User } from '../user';
 })
 export class UserComponent implements OnInit {
 
-  constructor() { }
 
-  @Input() user:User;
+
+  constructor(private githubService:GithubService) { 
+    
+  }
+
+  @Input() user:User = new User('','','');
 
   ngOnInit() {
   }

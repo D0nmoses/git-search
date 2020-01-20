@@ -8,7 +8,7 @@
 
 </div>
 
-<div class="m-x-auto"  *ngIf="user.userName.length == 0)">
+<div class="m-x-auto"  *ngIf="user.userName.length == 0">
 
     <div class="starter-template text-xs-center">
         <h5>Search any user</h5>
@@ -28,19 +28,19 @@
                 <div class="card-block">
                     <div class="row">
                         <div class="col-xl-4 m-b-1">
-                            <img src="{{githubUser.user.avatar_url}}" class="profile-img img-thumbnail m-b-1" />
-                            <a class="btn btn-sm btn-outline-primary btn-block m-t-1" href="{{githubUser.user.html_url}}" target="_blank">View Profile</a>
+                            <img src="{{user.user.avatar_url}}" class="profile-img img-thumbnail m-b-1" />
+                            <a class="btn btn-sm btn-outline-primary btn-block m-t-1" href="{{user.user.html_url}}" target="_blank">View Profile</a>
                         </div>
 
                         <div class="col-xl-8">
 
 
                             <ul class="list-group">
-                                <li class="list-group-item"><b>Username: </b> {{githubUser.user.login}}</li>
-                                <li class="list-group-item"><b>Location: </b> {{githubUser.user.location}}</li>
-                                <li class="list-group-item"><b>E-Mail: </b> {{githubUser.user.email}}</li>
-                                <li class="list-group-item"><b>Blog Link: </b> {{githubUser.user.blog}}</li>
-                                <li class="list-group-item"><b>Member Since: </b> {{githubUser.user.created_at}}</li>
+                                <li class="list-group-item"><b>Username: </b> {{user.user.login}}</li>
+                                <li class="list-group-item"><b>Location: </b> {{user.user.location}}</li>
+                                <li class="list-group-item"><b>E-Mail: </b> {{user.user.email}}</li>
+                                <li class="list-group-item"><b>Blog Link: </b> {{user.user.blog}}</li>
+                                <li class="list-group-item"><b>Member Since: </b> {{user.user.created_at}}</li>
                             </ul>
 
                         </div>
@@ -48,10 +48,10 @@
 
                     <div class="status m-t-1">
 
-                        <span class="p-a-05 bg-info text-xs-center"> {{githubUser.user.public_repos}} Public Repos </span>
-                        <span class="p-a-05 bg-primary m-t-1 text-xs-center"> {{githubUser.user.public_gists}} Public Gists </span>
-                        <span class="p-a-05 bg-danger m-t-1 text-xs-center"> {{githubUser.user.followers}} Followers </span>
-                        <span class="p-a-05 bg-inverse m-t-1 text-xs-center"> {{githubUser.user.following}} Followings </span>
+                        <span class="p-a-05 bg-info text-xs-center"> {{user.user.public_repos}} Public Repos </span>
+                        <span class="p-a-05 bg-primary m-t-1 text-xs-center"> {{user.user.public_gists}} Public Gists </span>
+                        <span class="p-a-05 bg-danger m-t-1 text-xs-center"> {{user.user.followers}} Followers </span>
+                        <span class="p-a-05 bg-inverse m-t-1 text-xs-center"> {{user.user.following}} Followings </span>
 
 
                     </div>
@@ -71,7 +71,7 @@
                 <h5 class="card-header">Repos</h5>
                 <div class="card-block">
 
-                    <div class="list-group">
+                     <div class="list-group">
 
                         <a *ngFor="let repo of userser.repos" href="{{repo.html_url}}" target="_blank" class="list-group-item list-group-item-action">
                             <span class="tag tag-info pull-xs-right">{{repo.watchers}} Watchers</span>
