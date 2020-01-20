@@ -73,7 +73,7 @@
 
                      <div class="list-group">
 
-                        <a *ngFor="let repo of userser.repos" href="{{repo.html_url}}" target="_blank" class="list-group-item list-group-item-action">
+                        <a *ngFor="let repo of user.repos" href="{{repo.html_url}}" target="_blank" class="list-group-item list-group-item-action">
                             <span class="tag tag-info pull-xs-right">{{repo.watchers}} Watchers</span>
                             <span class="tag tag-success pull-xs-right m-r-05">{{repo.forks}} Forks</span>
                             <h6 class="list-group-item-heading">{{repo.name}}</h6>
