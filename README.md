@@ -1,27 +1,15 @@
-# GitSearch
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Git Search
+#### This is a website built on the Angular framework that leverages the github API, allowing users to search for specific github users along with the account information as well as public repositories. 19/1/2020. 
+#### By **Don Moses**
+## Description
+On loading the webpage, the user meets a search form allowing them to search for specific users. On search, a hidden div displays, showing the user's avatar, account information, ie, followers, following, number of public repositories as well as other github indicators. Furthermore, a list of the public repos also appears in a list group, allowing the user to click on the option they want and bbeing redirected to the selected repository. The navbar has two options to highlight the routing ability of the web application; search and about. The about section simply shows a message concerning the functionality of the web app.
+## Setup/Installation Requirements
+The only thing needed to view the webpage is a working browser such as chrome or firefox.
+## Known Bugs
+Currently there are no known bugs. Please reach out if any is found.
+## Technologies Used
+For development, the author used vscode to program in html, css, typescprit and markdown. furthermore, the angular framework was used to leverage the MVC design pattern.
+## Codebeat Badge
+[![codebeat badge](https://codebeat.co/badges/84a1763b-0be7-4259-9a11-64a8396b562c)](https://codebeat.co/projects/github-com-d0nmoses-git-search-master)
+## Support and contact details
+In case of any problems, please email me at githinjidon@gmail.com
