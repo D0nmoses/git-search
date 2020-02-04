@@ -10,6 +10,6 @@ Currently there are no known bugs. Please reach out if any is found.
 ## Technologies Used
 For development, the author used vscode to program in html, css, typescprit and markdown. furthermore, the angular framework was used to leverage the MVC design pattern.
 ## Codebeat Badge
-[![codebeat badge](https://codebeat.co/badges/84a1763b-0be7-4259-9a11-64a8396b562c)](https://codebeat.co/projects/github-com-d0nmoses-git-search-master)
+[![codebeat badge](https://codebeat.co/badges/687d3dec-aceb-495f-90cf-28fe700f4558)](https://codebeat.co/projects/github-com-d0nmoses-newslist-master)
 ## Support and contact details
 In case of any problems, please email me at githinjidon@gmail.com
